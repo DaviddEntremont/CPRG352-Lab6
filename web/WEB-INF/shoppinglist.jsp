@@ -19,9 +19,9 @@
         
         <form action="" method="post">
             <ul>
-                <c:forEach items="${shoppingListItems}" var="account">
+                <c:forEach items="${shoppingListItems}" var="item">
                 
-                        <li><input type="radio" name="item" value="${shoppingListItems.get()}">${shoppingListItems.get()}</li>
+                        <li><input type="radio" name="item" value="${item}">${item}</li>
                     
             </c:forEach>
             </ul>
